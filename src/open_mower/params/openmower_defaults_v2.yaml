@@ -44,8 +44,8 @@ mower_logic:
   undock_angle: 0.0
   undock_fixed_angle: true
   undock_use_curve: true
-  emergency_lift_period: -1
-  emergency_tilt_period: -1
+  emergency_lift_period: 4880
+  emergency_tilt_period: 4880
   ignore_charging_current: false
 
 xbot_monitoring:
