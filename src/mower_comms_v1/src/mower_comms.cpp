@@ -122,8 +122,8 @@ void publishActuators() {
 
   // emergency or timeout -> send 0 speeds
   if (is_emergency()) {
-    speed_l = 0;
-    speed_r = 0;
+    // speed_l = 0;
+    // speed_r = 0;
     speed_mow = 0;
   }
   if (ros::Time::now() - last_cmd_vel > ros::Duration(1.0)) {
